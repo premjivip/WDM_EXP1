@@ -4,8 +4,7 @@
   To Create Employee, Weather dataset in WEKA Data Mining and Analysis Tool and perform preprocessing
 ### PROCEDURE: 
 1) Open Start -> Programs -> Accessories -> Notepad
-2) Type the following training data set with the help of Notepad for Employee Table.
-
+2) Type the following training data set with the help of Notepad for Employee Table
 ```
 --------------
 Employee Data
@@ -23,7 +22,6 @@ y,102,high,3,female,251665
 z,103,medium,1,male,240238
 a,104,low,5,female,200200
 b,105,high,2,male,240240
-
 --------------
 Weather Data
 ---------------
@@ -51,7 +49,6 @@ rainy,75.0,80.0,false,yes
 6) In that dialog box there are four modes, click on explorer.
 7) Explorer shows many options. In that click on ‘open file’ and select the arff file
 8) Click on edit button which shows employee table on weka.
-
 ### OUTPUT:
 ### Employee Data
 ![image](https://github.com/premjivip/WDM_EXP1/assets/143831886/fbf91559-b194-4494-8c05-6f21ab80285d)
@@ -74,12 +71,9 @@ rainy,75.0,80.0,false,yes
 12) Press the Apply button, then a new attribute is added to the Weather Table.
 13) Save the file.
 14) Click on the Edit button, it shows a new Weather Table on Weka.
-
 ### OUTPUT:
 ![image](https://github.com/premjivip/WDM_EXP1/assets/143831886/11fa9406-7bd4-4b11-bbcc-edc8bb266367)
-
 ### 2) Remove -> Pre-Processing Technique:
-
 1) Start -> Programs -> Weka-3-4 -> Weka-3-4
 2) Click on explorer.
 3) Click on open file.
@@ -91,12 +85,9 @@ rainy,75.0,80.0,false,yes
 9) Select the attributes windy, play to Remove.
 10) Click Remove button and then Save.
 11) Click on the Edit button, it shows a new Weather Table on Weka.
-
 ### OUTPUT:
 ![image](https://github.com/premjivip/WDM_EXP1/assets/143831886/f9a5dcdf-0fd2-4044-9e92-7231f790b8cf)
-
 ### Normalize -> Pre-Processing Technique:
-
 1) Start -> Programs -> Weka-3-4 -> Weka-3-4
 2) Click on explorer.
 3) Click on open file.
@@ -108,9 +99,7 @@ rainy,75.0,80.0,false,yes
 9) Select the attributes temparature, humidity to Normalize.
 10) Click on Apply button and then Save.
 11) Click on the Edit button, it shows a new Weather Table with normalized values on Weka.
-
 ### OUTPUT:
 ![image](https://github.com/premjivip/WDM_EXP1/assets/143831886/718d78f2-66d0-4f3d-a6b9-7d07e9323210)
-
 ### RESULT: 
   Thus the program for generating employee and weather datasets has been developed, and preprocessing has been accomplished successfully.
